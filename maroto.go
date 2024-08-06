@@ -216,7 +216,7 @@ func (m *Maroto) addRow(r core.Row) {
 
 	maxHeight := m.cell.Height
 
-	r.SetConfig(m.config)
+	// r.SetConfig(m.config)
 	rowHeight := r.GetHeight(m.provider, &m.cell)
 	sumHeight := rowHeight + m.currentHeight + m.footerHeight
 
